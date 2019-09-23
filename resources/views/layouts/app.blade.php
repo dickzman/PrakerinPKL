@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield('title')</title>
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-1.ico">
+    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1.ico">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -47,7 +47,7 @@
             <!-- Logo -->
             <a href="/" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b></b></span>
+                <!--span class="logo-mini"><b>DI</b>KA</span-->
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg text-light">PRAKERIN</span>
             </a>
@@ -72,7 +72,7 @@
                 <!-- Sidebar user panel -->
                 <div class="user-panel">
                     <div class="text-center image">
-                        <img src="{{ asset('AdminLTE') }}/logo1.png" class="img-fluid" alt="User Image">
+                        <img src="{{ asset('AdminLTE') }}/logo2.png" class="img-fluid" alt="User Image">
                     </div>
                 </div>
 
@@ -112,17 +112,17 @@
                             {{ set_active('peserta.index') }} 
                             {{ set_active('peserta.create') }} 
                             {{ set_active('peserta.edit') }}
-                            {{ set_active('peserta.trash') }} "><a href="{{ route('peserta.index') }}"><i class="ion ion-ios-book"></i>Peserta</a></li>
+                            {{ set_active('peserta.trash') }} "><a href="{{ route('peserta.index') }}"><i class="ion ion-ios-book"></i>Peserta Prakerin</a></li>
 
                             <li class="
-                            {{ set_active('peserta.index') }} 
-                            {{ set_active('peserta.create') }} 
-                            {{ set_active('peserta.edit')}} 
-                            {{ set_active('peserta.trash') }}"><a href="{{ route('pembimbing.index') }}"><i class="ion ion-android-contacts"></i>Pembimbing</a></li>
+                            {{ set_active('pembimbing.index') }} 
+                            {{ set_active('pembimbing.create') }} 
+                            {{ set_active('pembimbing.edit')}} 
+                            {{ set_active('pembimbing.trash') }}"><a href="{{ route('pembimbing.index') }}"><i class="ion ion-android-contacts"></i>Pembimbing</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="#"><i class="fa fa-gear"></i> <span>Tes</span></a></li>
+                    <li><a href="#"><i class="fa fa-gear"></i> <span>Setting</span></a></li>
                 </ul>
             </section>
             <!-- /.sidebar -->
@@ -140,7 +140,7 @@
             <div class="pull-right hidden-xs">
 
             </div>
-            <strong>Keysssssss</strong>
+            <strong>POLITEKNIK NEGERI JEMBER</strong>
         </footer>
 
     </div>
