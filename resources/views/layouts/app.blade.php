@@ -47,7 +47,7 @@
             <!-- Logo -->
             <a href="/" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>DIC</b>KY</span>
+                <span class="logo-mini"><b></b></span>
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg text-light">PRAKERIN</span>
             </a>
@@ -112,13 +112,13 @@
                             {{ set_active('peserta.index') }} 
                             {{ set_active('peserta.create') }} 
                             {{ set_active('peserta.edit') }}
-                            {{ set_active('peserta.trash') }} "><a href="{{ route('peserta.index') }}"><i class="ion ion-ios-book"></i>Matakuliah</a></li>
+                            {{ set_active('peserta.trash') }} "><a href="{{ route('peserta.index') }}"><i class="ion ion-ios-book"></i>Peserta</a></li>
 
                             <li class="
                             {{ set_active('peserta.index') }} 
                             {{ set_active('peserta.create') }} 
                             {{ set_active('peserta.edit')}} 
-                            {{ set_active('peserta.trash') }}"><a href="{{ route('pembimbing.index') }}"><i class="ion ion-android-contacts"></i>Dosen</a></li>
+                            {{ set_active('peserta.trash') }}"><a href="{{ route('pembimbing.index') }}"><i class="ion ion-android-contacts"></i>Pembimbing</a></li>
 
                         </ul>
                     </li>

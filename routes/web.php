@@ -16,9 +16,6 @@ Route::match(['GET', 'POST'], '/register', function(){
     return redirect('/login');
 })->name('register');
 
-Route::match(['GET', 'POST'], '/register', function(){
-    return redirect('/loginp');
-})->name('register');
 
 
 // end disable register routes

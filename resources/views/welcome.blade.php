@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-1.ico">
+    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-2.ico">
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts -->
@@ -162,8 +162,8 @@
         }
 
         img {
-            height: 120px;
-            width: 25%;
+            height: 250px;
+            width: 250px;
         }
 
         body img {
@@ -196,16 +196,15 @@
             <a href="{{ url('/home') }}">Home</a>
             @else
             {{-- <a href="{{ route('login') }}">Login Administator</a>
-            <a href="#">Login Pembimbing</a>
+            {{-- <a href="{{ route('login') }}">Login Pembimbing</a>
             <a href="#">Login Mahasiswa</a>
             --}}
             <div class="dropdown">
                 <ul id="login">
                     <li><a href="{{ route('login') }}">Administator</a></li>
-                    <li><a href="#">Pembimbing</a></li>
-                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="{{ route('login') }}">Pembimbing</a></li>
+                    <li><a href="#">Peserta</a></li>
                 </ul>
-                
                 <a href="#login" aria-controls="my-dropdown2" role="button" data-toggle="dropdown" id="close">
                     <i class="fa fa-sign-in"> Login </i>
                 </a>
@@ -219,9 +218,9 @@
 
         <div class="content">
             <div class="title m-b-md">
-                Sistem Informasi Akademik
+                Sistem Informasi Prakerin
                 <hr>
-                <img src="{{ asset('AdminLTE') }}/logo1.png" class="img-fluid text-center" alt="">
+                <img src="{{ asset('AdminLTE') }}/logo2.png" class="img-fluid text-center" alt="">
             </div>
         </div>
     </div>
