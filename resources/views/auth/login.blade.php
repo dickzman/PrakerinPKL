@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/dist/css/AdminLTE.min.css">
     <meta charset="utf-8">
     <title>Halaman Login</title>
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-1.ico">
+    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1.ico">
 </head>
 
 <body>

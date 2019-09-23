@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-2.ico">
+    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1.ico">
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts -->
