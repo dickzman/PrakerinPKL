@@ -5,11 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield('title')</title>
-<<<<<<< HEAD
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-2.ico">
-=======
     <link rel="icon" href="{{ asset('AdminLTE') }}/logokom.ico">
->>>>>>> 0bb1adf9263ce039eda361100f402fc4a016e386
+
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
