@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/dist/css/AdminLTE.min.css">
     <meta charset="utf-8">
     <title>Halaman Login</title>
-    <link rel="icon" href="{{ asset('AdminLTE') }}/logo1-2.ico">
+
+=======
+    <link rel="icon" href="{{ asset('AdminLTE') }}/logokom.ico">
+>>>>>>> 0bb1adf9263ce039eda361100f402fc4a016e386
 </head>
 
 <body>
@@ -24,7 +27,7 @@
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
-            <p class=" login-box-msg text-muted text-center" id="header-panel">Sistem Informasi Akademik</p>
+            <p class=" login-box-msg text-muted text-center" id="header-panel">Sistem Informasi Prakerin</p>
 
             <form action="{{ route('login') }}" method="POST" autocomplete="off">
                 @csrf
